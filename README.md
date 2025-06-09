@@ -15,3 +15,6 @@ g++ main.cpp -o puzzle -lsfml-graphics -lsfml-window -lsfml-system
 ```bash
 ./puzzle
 ```
+
+### Imagem do jogo
+![Telinha](./capitura.png)

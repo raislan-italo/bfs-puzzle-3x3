@@ -6,12 +6,18 @@
 cd bfs-puzzle-3x3
 ```
 
-### 2. Compile com o seguinte comando
+### 2. Instale as bibliotecas gráficas necessárias (No Linux)
+```bash
+sudo apt update
+sudo apt install libsfml-dev
+```
+
+### 3. Compile com o seguinte comando
 ```bash
 g++ main.cpp -o puzzle -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
-### 3. Execute com o seguinte comando
+### 4. Execute com o seguinte comando
 ```bash
 ./puzzle
 ```
